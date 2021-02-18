@@ -1,5 +1,9 @@
- name: Arena Common
+name: Arena Common
 
+on:
+  release:
+    types: [created]
+    
 jobs:
   build:
     runs-on: ubuntu-latest
